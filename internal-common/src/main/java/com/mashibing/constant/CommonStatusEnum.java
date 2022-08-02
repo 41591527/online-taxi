@@ -1,4 +1,7 @@
-package com.mashibing.internalcommon.constant;
+package com.mashibing.constant;
+
+import lombok.Data;
+import lombok.Getter;
 
 /**
  * @Auther: tutu
@@ -6,6 +9,7 @@ package com.mashibing.internalcommon.constant;
  * @Description: com.mashibing.internalcommon.constant
  * @version: 1.0
  */
+
 public enum CommonStatusEnum {
 
     SUCCESS(1,"success"),
@@ -14,7 +18,9 @@ public enum CommonStatusEnum {
 
     ;
 
+    @Getter
     private int code;
+    @Getter
     private String value;
 
     CommonStatusEnum(int code, String value) {
