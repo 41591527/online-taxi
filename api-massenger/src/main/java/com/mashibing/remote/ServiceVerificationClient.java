@@ -1,4 +1,4 @@
-package com.mashibing.apipassenger.remote;
+package com.mashibing.remote;
 
 import com.mashibing.dto.ResponseResult;
 import com.mashibing.response.NumberCodeResponse;

@@ -25,7 +25,6 @@ public class NumberCodeController {
 
         NumberCodeResponse response = new NumberCodeResponse();
         response.setNumberCode(resultInt);
-        System.out.println("src code: " + resultInt);
         return ResponseResult.success(response);
     }
 }

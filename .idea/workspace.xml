@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/response/TokenResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/controller/VerificationCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/controller/VerificationCodeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/remote/ServiceVerificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/remote/ServiceVerificationClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/service/VerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/service/VerificationCodeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/apipassenger/controller/VerificationCodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/apipassenger/controller/VerificationCodeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/apipassenger/service/VerificationCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/apipassenger/service/VerificationCodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/ResponseResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/dto/ResponseResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/dto/ResponseResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/ApiPassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/ApiPassengerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/controller/VerificationCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/VerificationCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/remote/ServiceVerificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/remote/ServiceVerificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/request/VerificationCodeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/request/VerificationCodeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/apipassenger/service/VerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/VerificationCodeService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +74,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication">
+  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication (1)">
+    <configuration name="ApiPassengerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-massenger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.ApiPassengerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="api-massenger" />
       <extension name="coverage">
@@ -99,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiPassengerApplication (1)" />
         <item itemvalue="Spring Boot.ApiPassengerApplication" />
       </list>
     </recent_temporary>
@@ -108,22 +120,7 @@
       <serviceView>
         <option name="contentProportion" value="0.25247902" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1e990299" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1e990299" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e97221" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1e990299" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@eba18614" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -142,7 +139,8 @@
       <workItem from="1658925991726" duration="3121000" />
       <workItem from="1659013609697" duration="3321000" />
       <workItem from="1659096728775" duration="3822000" />
-      <workItem from="1659441057258" duration="6893000" />
+      <workItem from="1659441057258" duration="7258000" />
+      <workItem from="1659529877174" duration="2456000" />
     </task>
     <servers />
   </component>
