@@ -1,8 +1,10 @@
 package com.mashibing.service;
 
 import com.mashibing.constant.CommonStatusEnum;
+import com.mashibing.remote.ServicePassengerUserClient;
 import com.mashibing.remote.ServiceVerificationClient;
 import com.mashibing.dto.ResponseResult;
+import com.mashibing.request.VerificationCodeDTO;
 import com.mashibing.response.NumberCodeResponse;
 import com.mashibing.response.TokenResponse;
 import org.apache.commons.lang.StringUtils;
@@ -68,6 +70,10 @@ public class VerificationCodeService {
      * @param verificationCode 验证码
      * @return
      */
+
+    @Autowired
+    private ServicePassengerUserClient servicePassengerUserClient;
+
     public ResponseResult checkCode(String passengerPhone, String verificationCode){
         //根据手机号去redis读取验证码
         //生成key
@@ -80,12 +86,14 @@ public class VerificationCodeService {
         if (StringUtils.isBlank(codeRedis)){
             return ResponseResult.fail(CommonStatusEnum.VERIFICATION_CODE_ERROR.getCode(),CommonStatusEnum.VERIFICATION_CODE_ERROR.getValue());
         }
-        if (verificationCode.trim().equals(codeRedis.trim())){
+        if (!verificationCode.trim().equals(codeRedis.trim())){
             return ResponseResult.fail(CommonStatusEnum.VERIFICATION_CODE_ERROR.getCode(),CommonStatusEnum.VERIFICATION_CODE_ERROR.getValue());
         }
 
         //判断原来是否有用户，并进行相应的处理
-        System.out.println("判断原来是否有用户，并进行相应的处理");
+        VerificationCodeDTO verificationCodeDTO = new VerificationCodeDTO();
+        verificationCodeDTO.setPassengerPhone(passengerPhone);
+        servicePassengerUserClient.loginOrRegister(verificationCodeDTO);
 
         //颁发令牌
         System.out.println("颁发令牌");
