@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/RedisPrefixUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/interceptor/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/interceptor/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/interceptor/JWTInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/interceptor/JWTInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/VerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/VerificationCodeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/interceptor/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/interceptor/InterceptorConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/service/VerificationCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/service/VerificationCodeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/JwtUtils.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +177,7 @@
       <workItem from="1659529877174" duration="4914000" />
       <workItem from="1659702755656" duration="3884000" />
       <workItem from="1659961335928" duration="6016000" />
-      <workItem from="1660048332354" duration="2847000" />
+      <workItem from="1660048332354" duration="4524000" />
     </task>
     <servers />
   </component>
