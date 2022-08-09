@@ -62,7 +62,7 @@ public class JWTInterceptor implements HandlerInterceptor {
 
             String tokenKey = RedisPrefixUtils.generatorTokenKey(phone,identity);
             //从redis中取出token
-            String tokenRedis = stringRedisTemplate.opsForValue().get(token);
+            String tokenRedis = stringRedisTemplate.opsForValue().get(tokenKey);
             if (StringUtils.isBlank(tokenRedis)){
                 resultString = "token invalid";
                 result = false;
