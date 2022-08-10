@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="" />
+    <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/constant/TokenConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/interceptor/JWTInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/interceptor/JWTInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/VerificationCodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/VerificationCodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/service/VerificationCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/service/VerificationCodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/response/TokenResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/response/TokenResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/RedisPrefixUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/RedisPrefixUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/util/RedisPrefixUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/util/RedisPrefixUtils.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication (1)">
+  <component name="RunManager" selected="Spring Boot.ServiceVerificationcodeApplication">
     <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.util.JwtUtils" />
       <module name="internalcommon" />
@@ -140,17 +150,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4937c877" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1a77dd3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4937c877" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ead5ffe4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4937c877" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5361cd85" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1a77dd3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@34a0dc88" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +180,8 @@
       <workItem from="1659529877174" duration="4914000" />
       <workItem from="1659702755656" duration="3884000" />
       <workItem from="1659961335928" duration="6016000" />
-      <workItem from="1660048332354" duration="4893000" />
+      <workItem from="1660048332354" duration="5133000" />
+      <workItem from="1660135806346" duration="1435000" />
     </task>
     <servers />
   </component>
