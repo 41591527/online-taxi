@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/ForecastPriceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/ForecastPriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/request/ForecastPriceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/response/ForecastPriceResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/ServicePriceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-price/src/test/java/com/mashibing/ServicePriceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/remote/ServicePassengerUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/remote/ServicePassengerUserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/target/classes/com/mashibing/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-passenger-user/src/main/java/com/mashibing/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-passenger-user/src/main/java/com/mashibing/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicePassengerUserApplication">
+  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication (1)">
     <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.util.JwtUtils" />
       <module name="internalcommon" />
@@ -124,6 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServicePriceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-price" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.ServicePriceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceVerificationcodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-verificationcode" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.ServiceVerificationcodeApplication" />
@@ -147,12 +165,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c1a6d81a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f1ec147b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c1a6d81a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9f5328e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f1ec147b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6a10f32f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +197,8 @@
       <workItem from="1659961335928" duration="6016000" />
       <workItem from="1660048332354" duration="5133000" />
       <workItem from="1660135806346" duration="3092000" />
-      <workItem from="1660218003716" duration="6238000" />
+      <workItem from="1660218003716" duration="6900000" />
+      <workItem from="1660306112974" duration="4360000" />
     </task>
     <servers />
   </component>

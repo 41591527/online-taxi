@@ -11,6 +11,7 @@
         <module name="service-verificationcode" />
         <module name="api-massenger" />
         <module name="internalcommon" />
+        <module name="service-price" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="api-massenger" options="-parameters" />
       <module name="internalcommon" options="-parameters" />
       <module name="service-passenger-user" options="-parameters" />
+      <module name="service-price" options="-parameters" />
       <module name="service-verificationcode" options="-parameters" />
     </option>
   </component>
