@@ -1,7 +1,9 @@
 package com.mashibing.service;
 
 import com.mashibing.dto.ResponseResult;
+import com.mashibing.remote.MapDirectionClient;
 import com.mashibing.response.DirectionResponse;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -13,6 +15,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class DirectionService {
 
+    @Autowired
+    private MapDirectionClient mapDirectionClient;
+
     /**
      * 根据去点经纬度和终点经纬度获取距离（米）和时长（分钟）
      * @param depLongitude
@@ -23,10 +28,10 @@ public class DirectionService {
      */
     public ResponseResult driving(String depLongitude,String depLatitude,String destLongitude,String destLatitude){
 
-        DirectionResponse directionResponse = new DirectionResponse();
-        directionResponse.setDistance(123);
-        directionResponse.setDuration(456);
-        return ResponseResult.success(directionResponse);
+        //调用第三方地图接口
+        DirectionResponse direction = mapDirectionClient.direction(depLongitude, depLatitude, destLongitude, destLatitude);
+
+        return ResponseResult.success(direction);
     }
 
 }
