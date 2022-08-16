@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/remote/ServicePriceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/util/BigDecimalUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/ForecastPriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/ForecastPriceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/ForecastPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/ForecastPriceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/PriceRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/PriceRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/constant/CommonStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/constant/CommonStatusEnum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/service/ForecastPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/service/ForecastPriceService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication (1)">
+  <component name="RunManager" selected="Application.ForecastPriceService">
     <configuration name="ForecastPriceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.service.ForecastPriceService" />
       <module name="service-price" />
@@ -212,7 +208,7 @@
       <workItem from="1660218003716" duration="6900000" />
       <workItem from="1660306112974" duration="6376000" />
       <workItem from="1660563634410" duration="6865000" />
-      <workItem from="1660652836017" duration="4038000" />
+      <workItem from="1660652836017" duration="5381000" />
     </task>
     <servers />
   </component>
