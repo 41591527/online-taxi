@@ -1,6 +1,7 @@
 package com.mashibing.controller;
 
 import com.mashibing.dto.ResponseResult;
+import com.mashibing.remote.ServicePriceClient;
 import com.mashibing.request.ForecastPriceDTO;
 import com.mashibing.service.ForecastPriceService;
 import lombok.extern.slf4j.Slf4j;

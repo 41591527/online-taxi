@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/PriceRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/mapper/PriceRuleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/remote/ServicePriceClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/constant/CommonStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/constant/CommonStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-price/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/ServicePriceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/ServicePriceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/ForecastPriceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/controller/ForecastPriceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/ForecastPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-massenger/src/main/java/com/mashibing/service/ForecastPriceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/PriceRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/PriceRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/constant/CommonStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/target/classes/com/mashibing/constant/CommonStatusEnum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/service/ForecastPriceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/java/com/mashibing/service/ForecastPriceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-price/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-price/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -80,7 +79,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServicePriceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiPassengerApplication (1)">
+    <configuration name="ForecastPriceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.service.ForecastPriceService" />
+      <module name="service-price" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JwtUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.util.JwtUtils" />
       <module name="internalcommon" />
@@ -151,6 +163,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApiPassengerApplication (1)" />
+        <item itemvalue="Application.ForecastPriceService" />
         <item itemvalue="Application.JwtUtils" />
         <item itemvalue="Spring Boot.ApiPassengerApplication" />
       </list>
@@ -161,7 +174,17 @@
       <serviceView>
         <option name="contentProportion" value="0.25247902" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@67203749" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@67203749" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ae19902" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -189,7 +212,7 @@
       <workItem from="1660218003716" duration="6900000" />
       <workItem from="1660306112974" duration="6376000" />
       <workItem from="1660563634410" duration="6865000" />
-      <workItem from="1660652836017" duration="1461000" />
+      <workItem from="1660652836017" duration="4038000" />
     </task>
     <servers />
   </component>
