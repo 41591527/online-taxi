@@ -1,6 +1,9 @@
 package com.mashibing.service;
 
+import com.mashibing.constant.CommonStatusEnum;
+import com.mashibing.dto.PriceRule;
 import com.mashibing.dto.ResponseResult;
+import com.mashibing.mapper.PriceRuleMapper;
 import com.mashibing.remote.ServiceMapClient;
 import com.mashibing.request.ForecastPriceDTO;
 import com.mashibing.response.DirectionResponse;
@@ -8,6 +11,10 @@ import com.mashibing.response.ForecastPriceResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @Auther: tutu
@@ -21,6 +28,9 @@ public class ForecastPriceService {
 
     @Autowired
     private ServiceMapClient serviceMapClient;
+
+    @Autowired
+    private PriceRuleMapper priceRuleMapper;
 
 
     public ResponseResult forecastPrice(String depLongitude,String depLatitude,String destLongitude,String destLatitude){
@@ -42,6 +52,14 @@ public class ForecastPriceService {
         log.info("时长：" + duration);
 
         log.info("读取计价规则");
+        Map<String, Object> queryMap = new HashMap<>();
+        queryMap.put("city_code","110000");
+        queryMap.put("vehicle_type","1");
+        List<PriceRule> priceRules = priceRuleMapper.selectByMap(queryMap);
+        if (priceRules.size() == 0){
+            return  ResponseResult.fail(CommonStatusEnum.PRICE_RULE_EMPTY.getCode(),CommonStatusEnum.PRICE_RULE_EMPTY.getValue());
+        }
+        PriceRule priceRule = priceRules.get(0);
 
         log.info("根据距离/时长/计价规则，计算价格");
 
