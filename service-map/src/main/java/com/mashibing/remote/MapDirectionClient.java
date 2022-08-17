@@ -1,7 +1,6 @@
 package com.mashibing.remote;
 
-import com.mashibing.dto.ResponseResult;
-import com.mashibing.response.AmapConfigConstants;
+import com.mashibing.constant.AmapConfigConstants;
 import com.mashibing.response.DirectionResponse;
 import lombok.extern.slf4j.Slf4j;
 import net.sf.json.JSONArray;
