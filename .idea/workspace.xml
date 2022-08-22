@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23baac5a-08f3-43fa-a498-84b6ecd89789" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-driver-user/src/main/java/com/mashibing/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/DriverUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/internal-common/src/main/java/com/mashibing/dto/DriverUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-driver-user/src/main/java/com/mashibing/service/DriverUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/src/main/java/com/mashibing/service/DriverUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-driver-user/src/main/java/com/mashibing/ServiceDriverUserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-driver-user/src/main/java/com/mashibing/ServiceDriverUserApplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +217,7 @@
       <workItem from="1660652836017" duration="5621000" />
       <workItem from="1660738529431" duration="6849000" />
       <workItem from="1660821455463" duration="3820000" />
-      <workItem from="1661169563649" duration="2089000" />
+      <workItem from="1661169563649" duration="2329000" />
     </task>
     <servers />
   </component>
