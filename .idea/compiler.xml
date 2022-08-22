@@ -14,6 +14,7 @@
         <module name="internalcommon" />
         <module name="service-verificationcode" />
         <module name="api-massenger" />
+        <module name="api-driver" />
         <module name="service-map" />
       </profile>
     </annotationProcessing>
@@ -21,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-boss" options="-parameters" />
+      <module name="api-driver" options="-parameters" />
       <module name="api-massenger" options="-parameters" />
       <module name="internalcommon" options="-parameters" />
       <module name="service-driver-user" options="-parameters" />
