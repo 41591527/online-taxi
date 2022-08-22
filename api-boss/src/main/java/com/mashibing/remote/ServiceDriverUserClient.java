@@ -18,4 +18,7 @@ public interface ServiceDriverUserClient {
 
     @RequestMapping(method = RequestMethod.POST,value = "/users")
     public ResponseResult addDriverUser(@RequestBody DriverUser driverUser);
+
+    @RequestMapping(method = RequestMethod.PUT,value = "/user")
+    public ResponseResult updateDriverUser(@RequestBody DriverUser driverUser);
 }
