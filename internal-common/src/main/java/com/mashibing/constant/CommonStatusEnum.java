@@ -36,6 +36,10 @@ public enum CommonStatusEnum {
      */
     MAP_DISTRICT(1400,"请求地图错误"),
     /**
+     * 司机和车辆：1500-1599
+     */
+    DRIVER_CAR_BIND_NOT_EXISTS(1500,"司机和车辆绑定关系不存在"),
+    /**
      * 成功
      */
     SUCCESS(1,"success"),

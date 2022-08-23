@@ -103,7 +103,7 @@ public class Car implements Serializable {
     /**
      * 车辆初次登记日期
      */
-    private LocalDate centifyDateB;
+    private LocalDate certifyDateB;
 
     /**
      * 车辆检修状态（0：未检修，1：已检修，2：未知）
@@ -158,7 +158,7 @@ public class Car implements Serializable {
     /**
      * 车辆状态（0：有效，1：失效）
      */
-    private Boolean state;
+    private Integer state;
 
     /**
      * 创建时间
